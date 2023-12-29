@@ -1,0 +1,108 @@
+.main{
+    margin-top: 80px;
+    margin-left:12px;
+    margin-right:12px;
+}
+
+.display{
+    margin-top: 20px;
+}
+
+.heading,
+.table{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    align-items:center;
+    justify-content: center;
+    border:solid;
+    border-width: 1px;
+}
+
+.web{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex:1;
+    border:solid;
+    border-width: 1px;
+}
+
+.user{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex:2;
+    border:solid;
+    border-width: 1px;
+}
+
+.pass{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex:1;
+    border:solid;
+    border-width: 1px;
+}
+
+.add-delete{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+     flex:2;
+     border:solid;
+     border-width: 1px;
+}
+
+.web-entry{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex:1;
+    border:solid;
+    border-width: 1px;
+}
+
+.user-entry{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex:2;
+    border:solid;
+    border-width: 1px;
+}
+
+.pass-entry{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex:1;
+    border:solid;
+    border-width: 1px;
+}
+
+.add-delete-entry{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+     flex:2;
+     border:solid;
+     border-width: 1px;
+}
+
+.js-input-web{
+    margin-left:15px;
+    margin-top:15px;
+}
+
+.js-input-user{
+    margin-top:-20px;
+}
+
+.js-input-pass{
+    margin-left:3px;
+}
+
+.js-submit{
+    cursor:pointer;
+}

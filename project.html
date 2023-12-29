@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PASSWORD MANAGER</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/general.css">
+  </head>
+  <body>
+      <div class="header">
+        <div class="left-section">
+          <div>
+            <img class="site-logo" src="images/logo.jpg">
+          </div>
+          <div class="site-name">PassX</div>
+        </div>
+        <div class="middle-section"></div>
+        <div class="right-section">
+          <div class="contact-us">Contact us</div>
+          <div class="about-us">About us</div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="back-img-cont">
+          <img class="background-image" src="images/background-image.PNG">
+          <div class="outer-box">
+            <div class="image-box">
+              <img class="working" src="images/working.jpg">
+            </div>
+            <div class="login-box js-login-box">
+              <div class="login">PassX</div>
+              <div style="margin-bottom:8px;">
+               <p>Email Address</p>
+               <input class="input-box js-input-box" placeholder="you@example.com" >
+              </div>
+              <div style="margin-bottom:8px;">
+                <p>Password</p>
+               <input type="password" class="input-box js-pass-box" placeholder="Enter 6 characters or more" >
+              </div>
+
+              <div class="js-prompt prompt"></div>
+              <button class="login-button" onclick="enter();">Log in</button>
+              <div>Don't have an account? <span class="sign-up" onclick="register();">Sign up</span></div>
+            </div>
+      
+          </div>
+        </div>
+       
+      </div>
+
+      <script src="js/data.js"></script>
+      <script src="js/table.js"></script>
+      <script src="js/login.js"></script>
+     
+      
+  </body>
+</html>
